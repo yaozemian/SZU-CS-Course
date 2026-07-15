@@ -1,0 +1,60 @@
+﻿
+========== GET / ==========
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Cookie: LAB4_SESSION=4ff4eb6a-140a-475c-9ac3-7ea17901b03e
+Body bytes: 1054
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 4 HTTP Socket Server</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">���������ʵ����</p>
+        <h1>Java Socket HTTP Server</h1>
+        <p class="lead">�����̬��վ���Զ�����߳� Java HTTP ���������أ����� HTML��CSS��JS ��ͼƬ��Դ��</p>
+      </div>
+      <img src="/image...
+
+========== HEAD /images/network.svg ==========
+HTTP/1.1 200 OK
+Content-Type: image/svg+xml
+Cookie: LAB4_SESSION=4ff4eb6a-140a-475c-9ac3-7ea17901b03e
+Body bytes: 0
+Binary/image response received successfully.
+
+========== POST /login ==========
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Cookie: LAB4_SESSION=4ff4eb6a-140a-475c-9ac3-7ea17901b03e
+Body bytes: 322
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><title>POST Result</title></head>
+<body>
+  <h1>POST ������ɹ�</h1>
+  <p>�û����Ѿ����浽����˻Ự��YaoZemian</p>
+  <p>������ͨ�� Cookie ���Ự ID ���ظ��������</p>
+  <p><a href="/">������ҳ</a></p>
+</body>
+</html>
+
+
+========== GET /api/session ==========
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Cookie: LAB4_SESSION=4ff4eb6a-140a-475c-9ac3-7ea17901b03e
+Body bytes: 152
+{
+  "sessionId": "4ff4eb6a-140a-475c-9ac3-7ea17901b03e",
+  "username": "YaoZemian",
+  "visitCount": 4,
+  "lastVisit": "2026-06-03T16:08:50.075554600"
+}
+

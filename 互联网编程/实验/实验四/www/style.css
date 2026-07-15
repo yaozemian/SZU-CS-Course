@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, "Microsoft YaHei", sans-serif;
+  color: #172033;
+  background: #f6f8fb;
+}
+
+.shell {
+  width: min(960px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 32px 0;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 24px;
+  align-items: center;
+  padding: 32px;
+  background: #ffffff;
+  border: 1px solid #dce3ed;
+  border-radius: 8px;
+}
+
+.hero img {
+  width: 100%;
+  max-height: 260px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: #0f7a6c;
+  font-weight: 700;
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+.lead {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.panel {
+  margin-top: 24px;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #dce3ed;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: end;
+}
+
+label {
+  display: grid;
+  gap: 6px;
+  font-weight: 700;
+}
+
+input {
+  min-width: 220px;
+  padding: 10px 12px;
+  border: 1px solid #b8c4d4;
+  border-radius: 6px;
+}
+
+button {
+  padding: 11px 16px;
+  border: 0;
+  border-radius: 6px;
+  color: #ffffff;
+  background: #0f7a6c;
+  cursor: pointer;
+}
+
+pre {
+  overflow: auto;
+  padding: 16px;
+  background: #172033;
+  color: #d5f5ef;
+  border-radius: 6px;
+}
+
+@media (max-width: 720px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+}

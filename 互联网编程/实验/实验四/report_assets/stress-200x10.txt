@@ -1,0 +1,7 @@
+﻿Clients: 200
+Requests per client: 10
+Total requests: 2000
+Success: 1924
+Failed: 76
+Elapsed: 10.716 s
+Throughput: 186.64 requests/s

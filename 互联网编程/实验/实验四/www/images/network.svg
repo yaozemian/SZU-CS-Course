@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="HTTP socket network">
+  <rect width="640" height="420" rx="24" fill="#e9f4f1"/>
+  <rect x="62" y="80" width="180" height="118" rx="14" fill="#ffffff" stroke="#0f7a6c" stroke-width="5"/>
+  <rect x="398" y="80" width="180" height="118" rx="14" fill="#ffffff" stroke="#315b8a" stroke-width="5"/>
+  <rect x="230" y="260" width="180" height="96" rx="14" fill="#ffffff" stroke="#b7791f" stroke-width="5"/>
+  <path d="M242 139h156M488 198 410 260M152 198l78 62" fill="none" stroke="#172033" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="152" cy="139" r="28" fill="#0f7a6c"/>
+  <circle cx="488" cy="139" r="28" fill="#315b8a"/>
+  <circle cx="320" cy="308" r="24" fill="#b7791f"/>
+  <text x="152" y="146" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#ffffff">GET</text>
+  <text x="488" y="146" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" fill="#ffffff">POST</text>
+  <text x="320" y="315" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" fill="#ffffff">HTTP</text>
+  <text x="152" y="238" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#172033">Client</text>
+  <text x="488" y="238" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#172033">Server</text>
+</svg>

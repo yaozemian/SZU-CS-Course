@@ -1,0 +1,26 @@
+?50 ???
+﻿Clients: 50
+Requests per client: 10
+Total requests: 500
+Success: 500
+Failed: 0
+Elapsed: 2.978 s
+Throughput: 167.90 requests/s
+
+?100 ???
+﻿Clients: 100
+Requests per client: 10
+Total requests: 1000
+Success: 962
+Failed: 38
+Elapsed: 5.512 s
+Throughput: 181.42 requests/s
+
+?200 ???
+﻿Clients: 200
+Requests per client: 10
+Total requests: 2000
+Success: 1924
+Failed: 76
+Elapsed: 10.716 s
+Throughput: 186.64 requests/s
